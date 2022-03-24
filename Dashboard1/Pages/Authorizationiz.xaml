@@ -1,0 +1,40 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dashboard1"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="Dashboard1.Authorizationiz"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="500"
+      Title="Authorizationiz" Background="Black">
+
+    <Grid Background="#FFA2A0A0">
+        <Rectangle Height="210" VerticalAlignment="Top" Margin="16,91,15,0" RadiusY="10" RadiusX="10" Fill="#ffffff">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1" Color="#FFBBBBBB"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Button Background="#FF8522BD" BorderBrush="#FF8522BD" Margin="23,289,331,79" Click="Button_Click" Width="146">
+            <Grid Width="150">
+                <materialDesign:PackIcon Kind="Home" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Center" Text="Войти" FontFamily="Champagne &amp; Limousines" Width="108"/>
+            </Grid>
+        </Button>
+        <Button Background="#FF8522BD" BorderBrush="#FF8522BD" Margin="177,289,177,79" Click="Button_Click_1" Width="146">
+            <Grid Width="150">
+                <materialDesign:PackIcon Kind="accountplus" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Center" Text="Регистрация" FontFamily="Champagne &amp; Limousines" Width="108"/>
+            </Grid>
+        </Button>
+        <Button Background="#FF8522BD" BorderBrush="#FF8522BD" Margin="330,289,24,79" Click="Button_Click_2">
+            <Grid Width="150">
+                <materialDesign:PackIcon Kind="LockOutline" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Center" Text="Смена пароля" FontFamily="Champagne &amp; Limousines" Width="108"/>
+            </Grid>
+        </Button>
+        <TextBox x:Name="txblogin" materialDesign:HintAssist.Hint="Логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}" HorizontalAlignment="Left" Margin="102,143,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="267" Background="#FFFFFEFE" Height="48" TextChanged="txblogin_TextChanged"/>
+        <PasswordBox x:Name="psbPasswordBox" materialDesign:HintAssist.Hint="Пароль"  Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" HorizontalAlignment="Left" Margin="102,223,0,0"  VerticalAlignment="Top" Width="267" Background="#FFFFFEFE" />
+        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="171,88,0,0" VerticalAlignment="Top"  FontSize="20" />
+    </Grid>
+</Page>

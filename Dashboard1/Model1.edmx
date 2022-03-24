@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище Model" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Accruals">
+          <Key>
+            <PropertyRef Name="ID_Начисления" />
+          </Key>
+          <Property Name="ID_Начисления" Type="int" Nullable="false" />
+          <Property Name="Дата" Type="date" />
+        </EntityType>
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="ID_Клиента" />
+          </Key>
+          <Property Name="ID_Клиента" Type="int" Nullable="false" />
+          <Property Name="Фамилия" Type="nvarchar" MaxLength="50" />
+          <Property Name="Имя" Type="nvarchar" MaxLength="50" />
+          <Property Name="Отчество" Type="nvarchar" MaxLength="50" />
+          <Property Name="Телефон" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="House">
+          <Key>
+            <PropertyRef Name="ID_Дома" />
+          </Key>
+          <Property Name="ID_Дома" Type="int" Nullable="false" />
+          <Property Name="Название" Type="nvarchar" MaxLength="50" />
+          <Property Name="Адрес" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Meter_reading">
+          <Key>
+            <PropertyRef Name="ID_Показания_счетчика" />
+          </Key>
+          <Property Name="ID_Показания_счетчика" Type="int" Nullable="false" />
+          <Property Name="ID_Тариф" Type="int" />
+          <Property Name="ID_Счетчика" Type="int" />
+          <Property Name="Значение" Type="nvarchar" MaxLength="50" />
+          <Property Name="ID_Начисления" Type="int" />
+          <Property Name="Сумма_начисления" Type="nvarchar" MaxLength="50" />
+          <Property Name="Дата_отправки" Type="date" />
+          <Property Name="Отправлено" Type="bigint" />
+          <Property Name="Дата_регистрации" Type="date" />
+          <Property Name="Расход" Type="nvarchar" MaxLength="50" />
+          <Property Name="Данные_загружены" Type="bit" />
+        </EntityType>
+        <EntityType Name="Rate">
+          <Key>
+            <PropertyRef Name="ID_Тариф" />
+          </Key>
+          <Property Name="ID_Тариф" Type="int" Nullable="false" />
+          <Property Name="Дата" Type="date" />
+          <Property Name="ID_Тип_ресурса" Type="int" />
+          <Property Name="Значение" Type="nvarchar" MaxLength="50" />
+          <Property Name="Действущий" Type="bit" />
+        </EntityType>
+        <EntityType Name="Resource_type">
+          <Key>
+            <PropertyRef Name="ID_Тип_ресурса" />
+          </Key>
+          <Property Name="ID_Тип_ресурса" Type="int" Nullable="false" />
+          <Property Name="Название" Type="nvarchar" MaxLength="50" />
+          <Property Name="Единица_измерения" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID_Пользователь" />
+          </Key>
+          <Property Name="ID_Пользователь" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Login" Type="nvarchar" MaxLength="50" />
+          <Property Name="Passowrd" Type="nvarchar" MaxLength="50" />
+          <Property Name="ID_Тип_пользователя" Type="int" />
+          <Property Name="Фамилия" Type="nvarchar" MaxLength="50" />
+          <Property Name="Имя" Type="nvarchar" MaxLength="50" />
+          <Property Name="Отчество" Type="nvarchar" MaxLength="50" />
+          <Property Name="Телефон" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="ID_Текущее_начисление" Type="int" />
+        </EntityType>
+        <EntityType Name="User_type">
+          <Key>
+            <PropertyRef Name="ID_Тип_пользователя" />
+          </Key>
+          <Property Name="ID_Тип_пользователя" Type="int" Nullable="false" />
+          <Property Name="Название" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Сounter">
+          <Key>
+            <PropertyRef Name="ID_Счетчик" />
+          </Key>
+          <Property Name="ID_Счетчик" Type="int" Nullable="false" />
+          <Property Name="Дата_регистрации" Type="date" />
+          <Property Name="Значение" Type="int" />
+          <Property Name="Дата_списания" Type="date" />
+          <Property Name="Номер" Type="int" />
+          <Property Name="ID_Клиента" Type="int" />
+          <Property Name="ID_Тип_ресурса" Type="int" />
+          <Property Name="Действущий" Type="bit" />
+          <Property Name="ID_Дома" Type="int" />
+        </EntityType>
+        <Association Name="FK_Meter_reading_Accruals">
+          <End Role="Accruals" Type="Self.Accruals" Multiplicity="0..1" />
+          <End Role="Meter_reading" Type="Self.Meter_reading" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accruals">
+              <PropertyRef Name="ID_Начисления" />
+            </Principal>
+            <Dependent Role="Meter_reading">
+              <PropertyRef Name="ID_Начисления" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meter_reading_Rate">
+          <End Role="Rate" Type="Self.Rate" Multiplicity="0..1" />
+          <End Role="Meter_reading" Type="Self.Meter_reading" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rate">
+              <PropertyRef Name="ID_Тариф" />
+            </Principal>
+            <Dependent Role="Meter_reading">
+              <PropertyRef Name="ID_Тариф" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meter_reading_Сounter">
+          <End Role="Сounter" Type="Self.Сounter" Multiplicity="0..1" />
+          <End Role="Meter_reading" Type="Self.Meter_reading" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Сounter">
+              <PropertyRef Name="ID_Счетчик" />
+            </Principal>
+            <Dependent Role="Meter_reading">
+              <PropertyRef Name="ID_Счетчика" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Accruals">
+          <End Role="Accruals" Type="Self.Accruals" Multiplicity="0..1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accruals">
+              <PropertyRef Name="ID_Начисления" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="ID_Текущее_начисление" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_User_type">
+          <End Role="User_type" Type="Self.User_type" Multiplicity="0..1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User_type">
+              <PropertyRef Name="ID_Тип_пользователя" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="ID_Тип_пользователя" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Сounter_Client">
+          <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+          <End Role="Сounter" Type="Self.Сounter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Client">
+              <PropertyRef Name="ID_Клиента" />
+            </Principal>
+            <Dependent Role="Сounter">
+              <PropertyRef Name="ID_Клиента" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Сounter_House">
+          <End Role="House" Type="Self.House" Multiplicity="0..1" />
+          <End Role="Сounter" Type="Self.Сounter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="House">
+              <PropertyRef Name="ID_Дома" />
+            </Principal>
+            <Dependent Role="Сounter">
+              <PropertyRef Name="ID_Дома" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Сounter_Resource_type">
+          <End Role="Resource_type" Type="Self.Resource_type" Multiplicity="0..1" />
+          <End Role="Сounter" Type="Self.Сounter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Resource_type">
+              <PropertyRef Name="ID_Тип_ресурса" />
+            </Principal>
+            <Dependent Role="Сounter">
+              <PropertyRef Name="ID_Тип_ресурса" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="Хранилище ModelContainer">
+          <EntitySet Name="Accruals" EntityType="Self.Accruals" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="House" EntityType="Self.House" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Meter_reading" EntityType="Self.Meter_reading" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Rate" EntityType="Self.Rate" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Resource_type" EntityType="Self.Resource_type" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User_type" EntityType="Self.User_type" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Сounter" EntityType="Self.Сounter" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Meter_reading_Accruals" Association="Self.FK_Meter_reading_Accruals">
+            <End Role="Accruals" EntitySet="Accruals" />
+            <End Role="Meter_reading" EntitySet="Meter_reading" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meter_reading_Rate" Association="Self.FK_Meter_reading_Rate">
+            <End Role="Rate" EntitySet="Rate" />
+            <End Role="Meter_reading" EntitySet="Meter_reading" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meter_reading_Сounter" Association="Self.FK_Meter_reading_Сounter">
+            <End Role="Сounter" EntitySet="Сounter" />
+            <End Role="Meter_reading" EntitySet="Meter_reading" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Accruals" Association="Self.FK_User_Accruals">
+            <End Role="Accruals" EntitySet="Accruals" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_User_type" Association="Self.FK_User_User_type">
+            <End Role="User_type" EntitySet="User_type" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Сounter_Client" Association="Self.FK_Сounter_Client">
+            <End Role="Client" EntitySet="Client" />
+            <End Role="Сounter" EntitySet="Сounter" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Сounter_House" Association="Self.FK_Сounter_House">
+            <End Role="House" EntitySet="House" />
+            <End Role="Сounter" EntitySet="Сounter" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Сounter_Resource_type" Association="Self.FK_Сounter_Resource_type">
+            <End Role="Resource_type" EntitySet="Resource_type" />
+            <End Role="Сounter" EntitySet="Сounter" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Accruals">
+          <Key>
+            <PropertyRef Name="ID_Начисления" />
+          </Key>
+          <Property Name="ID_Начисления" Type="Int32" Nullable="false" />
+          <Property Name="Дата" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Meter_reading" Relationship="Self.FK_Meter_reading_Accruals" FromRole="Accruals" ToRole="Meter_reading" />
+          <NavigationProperty Name="User" Relationship="Self.FK_User_Accruals" FromRole="Accruals" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="ID_Клиента" />
+          </Key>
+          <Property Name="ID_Клиента" Type="Int32" Nullable="false" />
+          <Property Name="Фамилия" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Имя" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Отчество" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Телефон" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Сounter" Relationship="Self.FK_Сounter_Client" FromRole="Client" ToRole="Сounter" />
+        </EntityType>
+        <EntityType Name="House">
+          <Key>
+            <PropertyRef Name="ID_Дома" />
+          </Key>
+          <Property Name="ID_Дома" Type="Int32" Nullable="false" />
+          <Property Name="Название" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Адрес" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Сounter" Relationship="Self.FK_Сounter_House" FromRole="House" ToRole="Сounter" />
+        </EntityType>
+        <EntityType Name="Meter_reading">
+          <Key>
+            <PropertyRef Name="ID_Показания_счетчика" />
+          </Key>
+          <Property Name="ID_Показания_счетчика" Type="Int32" Nullable="false" />
+          <Property Name="ID_Тариф" Type="Int32" />
+          <Property Name="ID_Счетчика" Type="Int32" />
+          <Property Name="Значение" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ID_Начисления" Type="Int32" />
+          <Property Name="Сумма_начисления" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Дата_отправки" Type="DateTime" Precision="0" />
+          <Property Name="Отправлено" Type="Int64" />
+          <Property Name="Дата_регистрации" Type="DateTime" Precision="0" />
+          <Property Name="Расход" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Данные_загружены" Type="Boolean" />
+          <NavigationProperty Name="Accruals" Relationship="Self.FK_Meter_reading_Accruals" FromRole="Meter_reading" ToRole="Accruals" />
+          <NavigationProperty Name="Rate" Relationship="Self.FK_Meter_reading_Rate" FromRole="Meter_reading" ToRole="Rate" />
+          <NavigationProperty Name="Сounter" Relationship="Self.FK_Meter_reading_Сounter" FromRole="Meter_reading" ToRole="Сounter" />
+        </EntityType>
+        <EntityType Name="Rate">
+          <Key>
+            <PropertyRef Name="ID_Тариф" />
+          </Key>
+          <Property Name="ID_Тариф" Type="Int32" Nullable="false" />
+          <Property Name="Дата" Type="DateTime" Precision="0" />
+          <Property Name="ID_Тип_ресурса" Type="Int32" />
+          <Property Name="Значение" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Действущий" Type="Boolean" />
+          <NavigationProperty Name="Meter_reading" Relationship="Self.FK_Meter_reading_Rate" FromRole="Rate" ToRole="Meter_reading" />
+        </EntityType>
+        <EntityType Name="Resource_type">
+          <Key>
+            <PropertyRef Name="ID_Тип_ресурса" />
+          </Key>
+          <Property Name="ID_Тип_ресурса" Type="Int32" Nullable="false" />
+          <Property Name="Название" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Единица_измерения" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Сounter" Relationship="Self.FK_Сounter_Resource_type" FromRole="Resource_type" ToRole="Сounter" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID_Пользователь" />
+          </Key>
+          <Property Name="ID_Пользователь" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Passowrd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ID_Тип_пользователя" Type="Int32" />
+          <Property Name="Фамилия" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Имя" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Отчество" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Телефон" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ID_Текущее_начисление" Type="Int32" />
+          <NavigationProperty Name="Accruals" Relationship="Self.FK_User_Accruals" FromRole="User" ToRole="Accruals" />
+          <NavigationProperty Name="User_type" Relationship="Self.FK_User_User_type" FromRole="User" ToRole="User_type" />
+        </EntityType>
+        <EntityType Name="User_type">
+          <Key>
+            <PropertyRef Name="ID_Тип_пользователя" />
+          </Key>
+          <Property Name="ID_Тип_пользователя" Type="Int32" Nullable="false" />
+          <Property Name="Название" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="User" Relationship="Self.FK_User_User_type" FromRole="User_type" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Сounter">
+          <Key>
+            <PropertyRef Name="ID_Счетчик" />
+          </Key>
+          <Property Name="ID_Счетчик" Type="Int32" Nullable="false" />
+          <Property Name="Дата_регистрации" Type="DateTime" Precision="0" />
+          <Property Name="Значение" Type="Int32" />
+          <Property Name="Дата_списания" Type="DateTime" Precision="0" />
+          <Property Name="Номер" Type="Int32" />
+          <Property Name="ID_Клиента" Type="Int32" />
+          <Property Name="ID_Тип_ресурса" Type="Int32" />
+          <Property Name="Действущий" Type="Boolean" />
+          <Property Name="ID_Дома" Type="Int32" />
+          <NavigationProperty Name="Client" Relationship="Self.FK_Сounter_Client" FromRole="Сounter" ToRole="Client" />
+          <NavigationProperty Name="House" Relationship="Self.FK_Сounter_House" FromRole="Сounter" ToRole="House" />
+          <NavigationProperty Name="Meter_reading" Relationship="Self.FK_Meter_reading_Сounter" FromRole="Сounter" ToRole="Meter_reading" />
+          <NavigationProperty Name="Resource_type" Relationship="Self.FK_Сounter_Resource_type" FromRole="Сounter" ToRole="Resource_type" />
+        </EntityType>
+        <Association Name="FK_Meter_reading_Accruals">
+          <End Role="Accruals" Type="Self.Accruals" Multiplicity="0..1" />
+          <End Role="Meter_reading" Type="Self.Meter_reading" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accruals">
+              <PropertyRef Name="ID_Начисления" />
+            </Principal>
+            <Dependent Role="Meter_reading">
+              <PropertyRef Name="ID_Начисления" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Accruals">
+          <End Role="Accruals" Type="Self.Accruals" Multiplicity="0..1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accruals">
+              <PropertyRef Name="ID_Начисления" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="ID_Текущее_начисление" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Сounter_Client">
+          <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+          <End Role="Сounter" Type="Self.Сounter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Client">
+              <PropertyRef Name="ID_Клиента" />
+            </Principal>
+            <Dependent Role="Сounter">
+              <PropertyRef Name="ID_Клиента" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Сounter_House">
+          <End Role="House" Type="Self.House" Multiplicity="0..1" />
+          <End Role="Сounter" Type="Self.Сounter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="House">
+              <PropertyRef Name="ID_Дома" />
+            </Principal>
+            <Dependent Role="Сounter">
+              <PropertyRef Name="ID_Дома" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meter_reading_Rate">
+          <End Role="Rate" Type="Self.Rate" Multiplicity="0..1" />
+          <End Role="Meter_reading" Type="Self.Meter_reading" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rate">
+              <PropertyRef Name="ID_Тариф" />
+            </Principal>
+            <Dependent Role="Meter_reading">
+              <PropertyRef Name="ID_Тариф" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meter_reading_Сounter">
+          <End Role="Сounter" Type="Self.Сounter" Multiplicity="0..1" />
+          <End Role="Meter_reading" Type="Self.Meter_reading" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Сounter">
+              <PropertyRef Name="ID_Счетчик" />
+            </Principal>
+            <Dependent Role="Meter_reading">
+              <PropertyRef Name="ID_Счетчика" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Сounter_Resource_type">
+          <End Role="Resource_type" Type="Self.Resource_type" Multiplicity="0..1" />
+          <End Role="Сounter" Type="Self.Сounter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Resource_type">
+              <PropertyRef Name="ID_Тип_ресурса" />
+            </Principal>
+            <Dependent Role="Сounter">
+              <PropertyRef Name="ID_Тип_ресурса" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_User_type">
+          <End Role="User_type" Type="Self.User_type" Multiplicity="0..1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User_type">
+              <PropertyRef Name="ID_Тип_пользователя" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="ID_Тип_пользователя" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Housing_officeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accruals" EntityType="Self.Accruals" />
+          <EntitySet Name="Client" EntityType="Self.Client" />
+          <EntitySet Name="House" EntityType="Self.House" />
+          <EntitySet Name="Meter_reading" EntityType="Self.Meter_reading" />
+          <EntitySet Name="Rate" EntityType="Self.Rate" />
+          <EntitySet Name="Resource_type" EntityType="Self.Resource_type" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="User" EntityType="Self.User" />
+          <EntitySet Name="User_type" EntityType="Self.User_type" />
+          <EntitySet Name="Сounter" EntityType="Self.Сounter" />
+          <AssociationSet Name="FK_Meter_reading_Accruals" Association="Self.FK_Meter_reading_Accruals">
+            <End Role="Accruals" EntitySet="Accruals" />
+            <End Role="Meter_reading" EntitySet="Meter_reading" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Accruals" Association="Self.FK_User_Accruals">
+            <End Role="Accruals" EntitySet="Accruals" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Сounter_Client" Association="Self.FK_Сounter_Client">
+            <End Role="Client" EntitySet="Client" />
+            <End Role="Сounter" EntitySet="Сounter" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Сounter_House" Association="Self.FK_Сounter_House">
+            <End Role="House" EntitySet="House" />
+            <End Role="Сounter" EntitySet="Сounter" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meter_reading_Rate" Association="Self.FK_Meter_reading_Rate">
+            <End Role="Rate" EntitySet="Rate" />
+            <End Role="Meter_reading" EntitySet="Meter_reading" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meter_reading_Сounter" Association="Self.FK_Meter_reading_Сounter">
+            <End Role="Сounter" EntitySet="Сounter" />
+            <End Role="Meter_reading" EntitySet="Meter_reading" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Сounter_Resource_type" Association="Self.FK_Сounter_Resource_type">
+            <End Role="Resource_type" EntitySet="Resource_type" />
+            <End Role="Сounter" EntitySet="Сounter" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_User_type" Association="Self.FK_User_User_type">
+            <End Role="User_type" EntitySet="User_type" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Model.sp_helpdiagramdefinition_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Model.sp_helpdiagrams_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+        </EntityContainer>
+        <ComplexType Name="sp_helpdiagramdefinition_Result">
+          <Property Type="Int32" Name="version" Nullable="true" />
+          <Property Type="Binary" Name="definition" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagrams_Result">
+          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+          <Property Type="Int32" Name="OwnerID" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище ModelContainer" CdmEntityContainer="Housing_officeEntities">
+          <EntitySetMapping Name="Accruals">
+            <EntityTypeMapping TypeName="Model.Accruals">
+              <MappingFragment StoreEntitySet="Accruals">
+                <ScalarProperty Name="ID_Начисления" ColumnName="ID_Начисления" />
+                <ScalarProperty Name="Дата" ColumnName="Дата" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Client">
+            <EntityTypeMapping TypeName="Model.Client">
+              <MappingFragment StoreEntitySet="Client">
+                <ScalarProperty Name="ID_Клиента" ColumnName="ID_Клиента" />
+                <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+                <ScalarProperty Name="Имя" ColumnName="Имя" />
+                <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+                <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="House">
+            <EntityTypeMapping TypeName="Model.House">
+              <MappingFragment StoreEntitySet="House">
+                <ScalarProperty Name="ID_Дома" ColumnName="ID_Дома" />
+                <ScalarProperty Name="Название" ColumnName="Название" />
+                <ScalarProperty Name="Адрес" ColumnName="Адрес" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Meter_reading">
+            <EntityTypeMapping TypeName="Model.Meter_reading">
+              <MappingFragment StoreEntitySet="Meter_reading">
+                <ScalarProperty Name="ID_Показания_счетчика" ColumnName="ID_Показания_счетчика" />
+                <ScalarProperty Name="ID_Тариф" ColumnName="ID_Тариф" />
+                <ScalarProperty Name="ID_Счетчика" ColumnName="ID_Счетчика" />
+                <ScalarProperty Name="Значение" ColumnName="Значение" />
+                <ScalarProperty Name="ID_Начисления" ColumnName="ID_Начисления" />
+                <ScalarProperty Name="Сумма_начисления" ColumnName="Сумма_начисления" />
+                <ScalarProperty Name="Дата_отправки" ColumnName="Дата_отправки" />
+                <ScalarProperty Name="Отправлено" ColumnName="Отправлено" />
+                <ScalarProperty Name="Дата_регистрации" ColumnName="Дата_регистрации" />
+                <ScalarProperty Name="Расход" ColumnName="Расход" />
+                <ScalarProperty Name="Данные_загружены" ColumnName="Данные_загружены" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Rate">
+            <EntityTypeMapping TypeName="Model.Rate">
+              <MappingFragment StoreEntitySet="Rate">
+                <ScalarProperty Name="ID_Тариф" ColumnName="ID_Тариф" />
+                <ScalarProperty Name="Дата" ColumnName="Дата" />
+                <ScalarProperty Name="ID_Тип_ресурса" ColumnName="ID_Тип_ресурса" />
+                <ScalarProperty Name="Значение" ColumnName="Значение" />
+                <ScalarProperty Name="Действущий" ColumnName="Действущий" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Resource_type">
+            <EntityTypeMapping TypeName="Model.Resource_type">
+              <MappingFragment StoreEntitySet="Resource_type">
+                <ScalarProperty Name="ID_Тип_ресурса" ColumnName="ID_Тип_ресурса" />
+                <ScalarProperty Name="Название" ColumnName="Название" />
+                <ScalarProperty Name="Единица_измерения" ColumnName="Единица_измерения" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="Model.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User">
+            <EntityTypeMapping TypeName="Model.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="ID_Пользователь" ColumnName="ID_Пользователь" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Passowrd" ColumnName="Passowrd" />
+                <ScalarProperty Name="ID_Тип_пользователя" ColumnName="ID_Тип_пользователя" />
+                <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+                <ScalarProperty Name="Имя" ColumnName="Имя" />
+                <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+                <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="ID_Текущее_начисление" ColumnName="ID_Текущее_начисление" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User_type">
+            <EntityTypeMapping TypeName="Model.User_type">
+              <MappingFragment StoreEntitySet="User_type">
+                <ScalarProperty Name="ID_Тип_пользователя" ColumnName="ID_Тип_пользователя" />
+                <ScalarProperty Name="Название" ColumnName="Название" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Сounter">
+            <EntityTypeMapping TypeName="Model.Сounter">
+              <MappingFragment StoreEntitySet="Сounter">
+                <ScalarProperty Name="ID_Счетчик" ColumnName="ID_Счетчик" />
+                <ScalarProperty Name="Дата_регистрации" ColumnName="Дата_регистрации" />
+                <ScalarProperty Name="Значение" ColumnName="Значение" />
+                <ScalarProperty Name="Дата_списания" ColumnName="Дата_списания" />
+                <ScalarProperty Name="Номер" ColumnName="Номер" />
+                <ScalarProperty Name="ID_Клиента" ColumnName="ID_Клиента" />
+                <ScalarProperty Name="ID_Тип_ресурса" ColumnName="ID_Тип_ресурса" />
+                <ScalarProperty Name="Действущий" ColumnName="Действущий" />
+                <ScalarProperty Name="ID_Дома" ColumnName="ID_Дома" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Хранилище Model.sp_alterdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Хранилище Model.sp_creatediagram" />
+          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Хранилище Model.sp_dropdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Хранилище Model.sp_helpdiagramdefinition">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Model.sp_helpdiagramdefinition_Result">
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Хранилище Model.sp_helpdiagrams">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Model.sp_helpdiagrams_Result">
+                <ScalarProperty Name="Database" ColumnName="Database" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Хранилище Model.sp_renamediagram" />
+          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Хранилище Model.sp_upgraddiagrams" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

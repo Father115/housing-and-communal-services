@@ -1,0 +1,590 @@
+D:\GIT\Dashboard1\Dashboard1\bin\Debug\Dashboard1.exe.config
+D:\GIT\Dashboard1\Dashboard1\bin\Debug\Dashboard1.exe
+D:\GIT\Dashboard1\Dashboard1\bin\Debug\Dashboard1.pdb
+D:\GIT\Dashboard1\Dashboard1\bin\Debug\MaterialDesignColors.dll
+D:\GIT\Dashboard1\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\GIT\Dashboard1\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\GIT\Dashboard1\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1.csprojResolveAssemblyReference.cache
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\MainWindow.g.cs
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\App.g.cs
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\MainWindow.baml
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1.g.resources
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.Cache
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1.exe
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\Dashboard1.pdb
+D:\GIT\Dashboard1\Dashboard1\obj\Debug\App.baml
+D:\GIT\Dashboard1\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Dashboard1.exe.config
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\MaterialDesignColors.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.csproj.AssemblyReference.cache
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.csproj.SuggestedBindingRedirects.cache
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\MainWindow.g.cs
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\App.g.cs
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\App.baml
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\MainWindow.baml
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.g.resources
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.cache
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.csproj.CopyComplete
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Map.g.cs
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Dashboard1_Content.g.cs
+C:\Users\aaskr\Desktop\Dashboard1-master\Dashboard1\obj\Debug\Map.baml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe.config
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.pdb
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignColors.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csprojAssemblyReference.cache
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\MainWindow.g.cs
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Map.g.cs
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\App.g.cs
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_Content.g.cs
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\App.baml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\MainWindow.baml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Map.baml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.g.resources
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.cache
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CopyComplete
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.exe
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.pdb
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\authorization.g.cs
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\authorization.baml
+C:\Users\aaskr\OneDrive\Рабочий стол\1 вариант программы\Dashboard1\obj\Debug\Reg.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.AssemblyReference.cache
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.SuggestedBindingRedirects.cache
+Z:\1 вариант программы\Dashboard1\obj\Debug\MainWindow.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\App.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_Content.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.exe
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.pdb
+Z:\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe.config
+Z:\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe
+Z:\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.pdb
+Z:\1 вариант программы\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignColors.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.xml
+Z:\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+Z:\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+Z:\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+Z:\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+Z:\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+Z:\1 вариант программы\Dashboard1\bin\Debug\ru\EntityFramework.resources.dll
+Z:\1 вариант программы\Dashboard1\obj\Debug\App.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\MainWindow.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.g.resources
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.cache
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+Z:\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CopyComplete
+Z:\1 вариант программы\Dashboard1\obj\Debug\map_1.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\map_1.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\authorization1.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Authorizationiz.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\authorization1.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\Authorizationiz.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\Registration.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Registration.baml
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe.config
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.pdb
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignColors.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.xml
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\ru\EntityFramework.resources.dll
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csprojAssemblyReference.cache
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\authorization1.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Authorizationiz.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\MainWindow.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\map_1.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Registration.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\App.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_Content.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\App.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\authorization1.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Authorizationiz.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\MainWindow.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\map_1.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Registration.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.g.resources
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.cache
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CopyComplete
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.exe
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.pdb
+Z:\1 вариант программы\Dashboard1\obj\Debug\PasswordChange.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\PasswordChange.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\old\Reg.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\old\Reg.baml
+Z:\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.dll
+Z:\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.pdb
+Z:\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.xml
+Z:\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.pdb
+Z:\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.xml
+Z:\1 вариант программы\Dashboard1\obj\Debug\old\Map.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\old\Map.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\Pages\СoldWater.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Pages\СoldWater.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\Pages\HotWater.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Pages\HotWater.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\Pages\HeatingWater.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Pages\HeatingWater.baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\Feedback.g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Feedback.baml
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.dll
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.pdb
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.xml
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.pdb
+C:\stalkeros\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.xml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Apartment(Не работает).g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\CalltheWizard(Не работает).g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Feedback.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\old\Map.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Pages\HeatingWater.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Pages\HotWater.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\PasswordChange.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\old\Reg.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\PaymentofRent(Не работает).g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Pages\СoldWater.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Settings(Не работает).g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Apartment(Не работает).baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\CalltheWizard(Не работает).baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Feedback.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\old\Map.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Pages\HeatingWater.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Pages\HotWater.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\PasswordChange.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\old\Reg.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\PaymentofRent(Не работает).baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Pages\СoldWater.baml
+C:\stalkeros\1 вариант программы\Dashboard1\obj\Debug\Settings(Не работает).baml
+Z:\1 вариант программы\Dashboard1\obj\Debug\Apartment(Не работает).g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\CalltheWizard(Не работает).g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\PaymentofRent(Не работает).g.cs
+Z:\1 вариант программы\Dashboard1\obj\Debug\Settings(Не работает).g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.AssemblyReference.cache
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.SuggestedBindingRedirects.cache
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Apartment.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\authorization1.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Authorizationiz.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\CalltheWizard(Не работает).g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Feedback.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\MainWindow.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\old\Map.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\map_1.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Pages\HeatingWater.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Pages\HotWater.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\PasswordChange.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\old\Reg.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\PaymentofRent(Не работает).g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Registration.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Pages\СoldWater.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Settings(Не работает).g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\App.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_Content.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe.config
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignColors.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.xml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.pdb
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.xml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\App.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Apartment.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\authorization1.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Authorizationiz.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\CalltheWizard(Не работает).baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Feedback.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\MainWindow.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\old\Map.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\map_1.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Pages\HeatingWater.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Pages\HotWater.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\PasswordChange.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\old\Reg.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\PaymentofRent(Не работает).baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Registration.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Pages\СoldWater.baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Settings(Не работает).baml
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.g.resources
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.cache
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+C:\Users\aaskr\Desktop\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CopyComplete
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.AssemblyReference.cache
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.SuggestedBindingRedirects.cache
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\Map.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\Reg.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\App.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_Content.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe.config
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignColors.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.xml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.pdb
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.xml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\App.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\Map.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\Reg.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.g.resources
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.cache
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CopyComplete
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\Apartment.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\Apartment.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages\Authorizationiz.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages\PasswordChange.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages\Registration.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages\Authorizationiz.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages\PasswordChange.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages\Registration.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\authorization1.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\authorization1.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Admin_panel.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Windows admin\Admin.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Admin_panel.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Windows admin\Admin.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages admin\RegistrationWorker.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages admin\RegistrationWorker.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\CalltheWizard.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\MapWorld.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\PaymentofRent.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\Setting.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Windows user\Feedback.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Windows user\MainWindow.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\map_1.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\HeatingWater.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\HotWater.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\СoldWater.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\ГлавнаяСтраница.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\ДанныеКвартиры.g.cs
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\CalltheWizard.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\MapWorld.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\PaymentofRent.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\Setting.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Windows user\Feedback.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Windows user\MainWindow.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\old\map_1.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\HeatingWater.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\HotWater.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\СoldWater.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\ГлавнаяСтраница.baml
+C:\Users\aaskr\Desktop\Практика 09.02.2022\1 вариант программы\Dashboard1\obj\Debug\Pages user\ДанныеКвартиры.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe.config
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignColors.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.xml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.pdb
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.xml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.AssemblyReference.cache
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.SuggestedBindingRedirects.cache
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\Apartment.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\authorization1.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Admin_panel.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Data_about_People.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\RegistrationWorker.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Sending_a_Receipt.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Send_the_Wizard.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages\Authorizationiz.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\CalltheWizard.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\MapWorld.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\PaymentofRent.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\Setting.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Windows admin\Admin.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Windows user\Feedback.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Windows user\MainWindow.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\Map.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\map_1.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\HeatingWater.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\HotWater.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages\PasswordChange.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\Reg.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages\Registration.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\СoldWater.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\ГлавнаяСтраница.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\ДанныеКвартиры.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\App.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_Content.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\App.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\Apartment.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\authorization1.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Admin_panel.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\RegistrationWorker.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages\Authorizationiz.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\CalltheWizard.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\MapWorld.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\PaymentofRent.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\Setting.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Windows admin\Admin.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Windows user\Feedback.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Windows user\MainWindow.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\Map.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\map_1.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\HeatingWater.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\HotWater.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages\PasswordChange.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\old\Reg.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages\Registration.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\СoldWater.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\ГлавнаяСтраница.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages user\ДанныеКвартиры.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Data_about_People.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Sending_a_Receipt.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Send_the_Wizard.baml
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.g.resources
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.cache
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CopyComplete
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Windows master\Master.g.cs
+C:\Users\aaskr\Desktop\Диплом\1 вариант программы\Dashboard1\obj\Debug\Windows master\Master.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe.config
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Dashboard1.pdb
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignColors.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\EntityFramework.xml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.pdb
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.xml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.AssemblyReference.cache
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.SuggestedBindingRedirects.cache
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\Apartment.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\authorization1.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Admin_panel.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Data_about_People.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\RegistrationWorker.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Sending_a_Receipt.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Send_the_Wizard.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages\Authorizationiz.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\CalltheWizard.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\MapWorld.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\PaymentofRent.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\Setting.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Windows admin\Admin.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Windows master\Master.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Windows user\Feedback.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Windows user\MainWindow.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\Map.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\map_1.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\HeatingWater.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\HotWater.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages\PasswordChange.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\Reg.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages\Registration.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\СoldWater.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\ГлавнаяСтраница.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\ДанныеКвартиры.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\App.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_Content.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.cache
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1_MarkupCompile.lref
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\App.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\Apartment.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\authorization1.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Admin_panel.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Data_about_People.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\RegistrationWorker.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Sending_a_Receipt.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages admin\Send_the_Wizard.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages\Authorizationiz.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\CalltheWizard.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\MapWorld.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\PaymentofRent.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\Setting.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Windows admin\Admin.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Windows master\Master.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Windows user\Feedback.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Windows user\MainWindow.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\Map.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\map_1.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\HeatingWater.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\HotWater.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages\PasswordChange.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\Pssword change.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\old\Reg.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages\Registration.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\СoldWater.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\ГлавнаяСтраница.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Pages user\ДанныеКвартиры.baml
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.g.resources
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.Properties.Resources.resources
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.GenerateResource.cache
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CoreCompileInputs.cache
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.csproj.CopyComplete
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.exe
+C:\Users\aaskr\Desktop\Диплом\Пример внешнего вида интерфейса\1 вариант программы\Dashboard1\obj\Debug\Dashboard1.pdb
